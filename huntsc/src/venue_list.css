@@ -1,0 +1,26 @@
+.whole-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title-message {
+    font-size: 80px;
+    font-family: 'Shrikhand', cursive;
+
+}
+
+p.title{
+    padding-bottom: 0;
+    margin-block-end: 0;
+}
+
+.tagline {
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+

@@ -1,0 +1,19 @@
+body {
+    background: #F0A6CA;
+
+}
+
+h1 {
+
+    font-family: 'Shrikhand', cursive;
+}
+button {
+    font-family: 'Raleway', sans-serif;
+    background-color: #EFC3E6;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 5px;
+    width: 250px;
+    cursor: pointer;
+}

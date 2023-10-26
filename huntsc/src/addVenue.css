@@ -1,0 +1,108 @@
+code {
+font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+
+    /* background-color: #F0A6CA; */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#9c89B8, #F0A6CA, #F0E6EF);
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    padding: 20px 10px;
+    border-radius: 30px;
+    border: 5px solid black;
+    padding-left: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+input {
+  width: 450px;
+  padding: 12px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+    border: 3px solid #555;
+    cursor: text;
+}
+
+/* 
+org
+info
+
+ */
+
+
+ .fryft2 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#question {
+  width: inline-size;
+  margin-right: 0px;
+  padding-right: 0;
+}
+
+#fryft {
+  width: 30px;
+  cursor: pointer;
+  zoom: 1.5;
+}
+
+.finish-buttons{
+  margin-left: 10px;
+  margin-right: 10px;
+  border-color: black;
+}
+
+.submit-button {
+  border: 2px solid black;
+  width: 80%;
+  height: line-height;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  padding-top: 4.5px;
+  padding-bottom: 4.5px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #efc3e6;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background: white;
+  color: black;
+}
+
+.button-cont {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}

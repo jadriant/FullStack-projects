@@ -1,0 +1,62 @@
+.OneListing{
+    font-family: 'Montserrat';
+    background: linear-gradient(#9c89B8, #F0A6CA, #F0E6EF);
+    border: 5px solid black;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-left: 125px;
+}
+.fryft{
+    margin-bottom: 5px;
+    border: 5px solid #ff00bf;
+    background-color: #ff00bf;
+    color: white;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 20px;
+    width: inline-size;
+    padding: 1%;
+}
+.header{
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+}
+
+.VenueInfo{
+    display: inline-block;
+    text-align: left;
+    width: 60%;
+    padding-left: 4%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.button {
+    display: inline-block;
+    font-size: 130%;
+    font-family: 'Raleway', sans-serif;
+    /* border-radius: 20px;
+    padding: 1%;
+    border: 3px solid black; */
+}
+
+#linked {
+    text-decoration: none;
+    color: black;
+    width: min-content;
+    border-radius: 20px;
+    padding: 10%;
+    border: 3px solid black;
+}
+
+.button:hover #linked {
+    color: pink;
+    background-color: black;
+}
