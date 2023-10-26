@@ -22,7 +22,7 @@ An Android application tailored for USC students to make reservations at USC's r
 <img src="img/bookingsAndReminder_page.png" alt="my bookings page" width="300">
 
 ## Testing
-### 15 Black Box Testing w/ `AndroidJUnit4`
+### Black Box Testing w/ `AndroidJUnit4`
 1. **Login with Valid Credentials Test**: This test verifies the ability of a user to log into the USCRecApp using valid credentials. 
 2. **Login with Invalid Credentials Test**: This test verifies the behavior of the application when trying to log in with non-existent or invalid credentials.
 3. **Map Swipe Functionality Test**: After logging in with valid credentials, this test evaluates the map's swipe functionality within the USCRecApp. The map is swiped left and right multiple times to ensure smooth navigation.
